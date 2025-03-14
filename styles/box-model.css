@@ -1,11 +1,12 @@
 .callout {
 	max-width: 375px;
 	margin: 10px;
-	border: 1px solid rgba(0,0,0,.1);
+	border: 1px solid rgba(0, 0, 0, .1);
 	padding: 15px;
 	background-color: #247;
 	color: #fff;
 }
+
 .callout img {
 	float: right;
 	margin: 0 0 10px 15px;
@@ -13,11 +14,13 @@
 	padding: 3px;
 	background-color: #bbb;
 	width: 100px;
-	height: auto;	
+	height: auto;
 }
+
 blockquote {
 	margin: 0;
 }
+
 cite {
 	display: block;
 	border-top: 1px dotted #fff;
