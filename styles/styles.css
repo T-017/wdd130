@@ -1,5 +1,13 @@
+:root {
+    --heading-background-color: blue;
+    --heading-text-color: #333;
+    --heading-font: 'Times', Helvatica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1)
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -10,19 +18,21 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 0;
+    padding: var(--padding);
+    font-family: var(--heading-font);
 }
 
 main {
@@ -37,10 +47,10 @@ main img {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
+    border: var(--border);
+    padding: var(--padding);
     background-color: #eee;
-    color: #333;
+    color: var(--heading-text-color);
     text-align: center;
 }
 
