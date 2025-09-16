@@ -18,21 +18,20 @@ nav a {
 }
 
 h1 {
-    color: var(--heading-text-color);
+    color: var(--heading-background-color);
     font-family: var(--heading-font);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: var(--border);
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: var(--padding);
-    font-family: var(--heading-font);
+    padding: 0;
 }
 
 main {
@@ -47,7 +46,7 @@ main img {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: var(--border);
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: var(--padding);
     background-color: #eee;
     color: var(--heading-text-color);
