@@ -20,6 +20,11 @@ nav a {
     padding: 20px;
 }
 
+header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 h1 {
     color: steelblue;
     padding: .5rem;
