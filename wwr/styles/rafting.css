@@ -95,7 +95,7 @@ h2 {
 .history img {
     width: 250px;
     height: auto;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .article {
@@ -115,7 +115,7 @@ h2 {
     width: 10rem;
 }
 
-.adventure img {
+figure img {
     display: flex;
     justify-content: center;
     flex-flow: row;
