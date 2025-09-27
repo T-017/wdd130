@@ -116,10 +116,14 @@ h2 {
 }
 
 figure img {
-    display: flex;
-    justify-content: center;
-    flex-flow: row;
+    display: grid;
+    grid-template-columns: 1fr;
     width: 150px;
+}
+
+figcaption {
+    display: flex;
+    text-align: center;
 }
 
 footer {
