@@ -115,9 +115,10 @@ h2 {
     width: 10rem;
 }
 
-figure img {
-    display: grid;
-    grid-template-columns: 1fr;
+.sights img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 150px;
 }
 
