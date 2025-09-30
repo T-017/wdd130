@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="about">About</a>
+            <a href="contact">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>Full Name: <input type="text" name="fullname"></label>
+                <label>Email: <input type="email" name="useremail"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Quetions</legend>
+                <label for="browser">What is your favorite browser?</label>
+                <select id="browser" name="browser">
+                    <option value="#"></option>
+                    <option value="Edge">Edge</option>
+                    <option value="firefox">Fire Fox</option>
+                    <option value="google">Google</option>
+                    <option value="safari">Safari</option>
+                    <option value="bing">Bing</option>
+                </select>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="residence">List the places you have lived.</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>©2025 | Jack Toshio Holt</p>
+    </footer>
+</body>
+</html>
