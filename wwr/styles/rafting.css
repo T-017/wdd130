@@ -235,6 +235,7 @@ button {
 
 .profiles img {
     display: grid;
+    margin-top: 16px;
     align-items: center;
     width: 125px;
     height: auto;
