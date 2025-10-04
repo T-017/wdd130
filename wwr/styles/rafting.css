@@ -163,11 +163,6 @@ footer p {
     font-size: 1.25rem;
 }
 
-.contact-info {
-    text-align: center;
-    font-size: 1.25rem;
-}
-
 .contact-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
