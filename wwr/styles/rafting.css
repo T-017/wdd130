@@ -191,6 +191,7 @@ footer p {
 .message-purpose {
     display: grid;
     grid-template-columns: 1fr;
+    border-style: none;
 }
 
 .purpose {
