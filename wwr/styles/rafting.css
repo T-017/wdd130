@@ -188,12 +188,6 @@ footer p {
     padding: 5px;
 }
 
-.message-purpose {
-    display: grid;
-    grid-template-columns: 1fr;
-    border-style: none;
-}
-
 .purpose {
     padding: 1rem;
 }
