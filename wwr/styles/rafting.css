@@ -140,7 +140,6 @@ h2 {
 
 footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 1rem;
     margin-top: 1rem;
@@ -170,6 +169,7 @@ footer p {
 
 .map iframe {
     width: 100%;
+    height: 100%;
     border-style: none;
     padding: 16px;
 }
@@ -185,16 +185,25 @@ footer p {
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    padding: 5px;
+    padding: 0.25rem 0.5rem;
+}
+
+legend {
+    padding: 0.5rem;
 }
 
 .purpose {
+    display: flex;
     padding: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: right;
 }
 
 .message-box {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    padding: 0.5rem;
 }
 
 input, select, textarea {
