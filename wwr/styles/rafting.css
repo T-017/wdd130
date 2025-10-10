@@ -113,6 +113,7 @@ h2 {
 .hero article img {
     float: right;
     width: 10rem;
+    padding: 10px;
 }
 
 .adventure {
@@ -252,6 +253,44 @@ button {
 }
 
 .profiles figcaption {
+    display: flex;
+    justify-content: center;
+}
+
+/* Home Page */
+
+.newsletter {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.newsletter img {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.trips {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.locations img {
+    display: grid;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+}
+
+.locations figcaption {
     display: flex;
     justify-content: center;
 }
