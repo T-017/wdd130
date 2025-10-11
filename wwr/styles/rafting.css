@@ -257,7 +257,7 @@ button {
     justify-content: center;
 }
 
-/* Home Page */
+/* Home Page and Trips */
 
 .newsletter {
     display: grid;
@@ -280,7 +280,7 @@ button {
 
 .locations {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .locations img {
@@ -293,4 +293,8 @@ button {
 .locations figcaption {
     display: flex;
     justify-content: center;
+}
+
+.rafting-options {
+    
 }
