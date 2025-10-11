@@ -280,7 +280,7 @@ button {
 
 .locations {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .locations img {
