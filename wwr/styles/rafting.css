@@ -296,5 +296,5 @@ button {
 }
 
 .rafting-options {
-    
+    display: grid;
 }
